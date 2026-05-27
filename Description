@@ -1,0 +1,33 @@
+This project is a simulation of a PLC-controlled bottle filling production line.
+The system is designed to simulate how conveyors in a small industrial plant operate in a sequential and safe manner.
+
+The production line contains three conveyor belts and two control push buttons:
+
+Start Button
+Stop Button
+System Operation
+
+When the Start button is pressed:
+
+The first conveyor starts running.
+After a 10-second delay using a timer, the second conveyor starts.
+After another 10 seconds, the third conveyor starts.
+
+The delay between each conveyor represents the time required for the bottles to move safely from one conveyor to the next until they reach the end of the production line.
+
+When the Stop button is pressed:
+
+The third conveyor stops first.
+Then the second conveyor stops after a delay.
+Finally, the first conveyor stops.
+
+This reverse shutdown sequence helps prevent bottle accumulation and keeps the system operating safely and smoothly.
+
+Project Goal
+
+The purpose of this project is to demonstrate:
+
+PLC sequential control logic
+Timer instructions
+Industrial conveyor automation
+Safe startup and shutdown procedures in manufacturing systems
