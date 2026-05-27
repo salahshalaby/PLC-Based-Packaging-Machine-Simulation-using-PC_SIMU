@@ -1,1 +1,0 @@
-# PLC-Based-Packaging-Machine-Simulation-using-PC_SIMU
